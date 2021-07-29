@@ -3,7 +3,7 @@ import os
 def export_envs():
     '''
     output:
-        - prints environment varaible name and value 
+        - prints exported environment varaible name and value 
     '''
     file = open('env.txt')
     for line in file:
